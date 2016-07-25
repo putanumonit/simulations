@@ -2,7 +2,7 @@
 """
 Created on Mon Jul 25 13:42:49 2016
 
-@author: yfalkovich
+@author: putanumonit
 """
 
 import random
