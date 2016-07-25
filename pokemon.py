@@ -3,6 +3,11 @@
 Created on Mon Jul 25 13:42:49 2016
 
 @author: putanumonit
+
+game(pl) generates a list of the turns each pokemon was caught for the first time. Each turn is a single pokemon seen.
+
+sim(nsims) simulates a game nsims times and returns the average turn the last pokemon was caught. 
+With the initial probability distribution, all 58 pokemon types were seen on average after 5,150 turns (10,000 simulations).
 """
 
 import random
