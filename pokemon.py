@@ -20,11 +20,12 @@ def setlims(pr):
 
 ## Simulates a single game of consecutive pokemon observations 
 def game(pl):
-    caught = [0] * 58
+    n = len(pl)
+    caught = [0] * n
     m=max(pl)
     turn = 0
     ncaught = 0
-    while ncaught < 58:
+    while ncaught < n:
         turn += 1
         x = random.uniform(0,m)
         p = 0
