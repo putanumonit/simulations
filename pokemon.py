@@ -40,7 +40,7 @@ def game(pl):
 def sim(nsims, pl):
     maxturns=[]
     for i in range(nsims):
-        game_result=game(plims)
+        game_result=game(pl)
         maxturns.append(max(game_result))
     return maxturns
     
